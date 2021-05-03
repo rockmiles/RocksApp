@@ -4,4 +4,5 @@ from django.http import HttpResponse
 def home(request):
     return render(request, 'gallery/home.html')
 
-def 
+def postdetail(request):
+    return render(request, 'gallery/post-detail.html')
