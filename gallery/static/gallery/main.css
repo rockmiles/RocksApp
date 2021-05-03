@@ -79,6 +79,22 @@ h2, h3, h4, a{
   padding: 5px 15px 5px 15px;
 }
 
+.footer {
+  position: absolute;
+  bottom: -200%;
+  width: 100vw;
+  font-family: monospace;
+  font-size: 24px;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  opacity: 0.6;
+}
+
+
 @media screen and (min-width:750px) {
   .list-flairs {
     display: flex;
