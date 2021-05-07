@@ -14,14 +14,14 @@
   <body>
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style=''>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Rock Miles</a>
+          <a class="navbar-brand" href="{% url 'post-page'%}">Rock Miles</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="{% url 'post-page'%}">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -30,8 +30,8 @@
 
               <ul class="nav navbar-nav navbar-right">
                 <li class="reg">
-                  <a href="#">Profile</a>
-                  <a style="background: #0A75AD;" href="#">Login</a>
+                  <a href="{% url 'profile' %}">Profile</a>
+                  <a style="background: #0A75AD;" href="{% url 'login'%}">Login</a>
                   <a style="background: #0A75AD;" href="{% url 'register'%}">SignUp</a>
                 </li>
               </ul>
