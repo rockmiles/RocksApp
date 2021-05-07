@@ -1,8 +1,6 @@
 
 /* Global Styles
 ===============================*/
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
 html {
     box-sizing: border-box;
 }
@@ -13,7 +11,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -24,6 +22,10 @@ h2, h3, h4, a{
 
 h4 {
   font-weight: 300;
+}
+
+img.img-responsive-resize {
+    height: 400px;
 }
 
 #bg {
@@ -102,7 +104,7 @@ h4 {
 }
 
 
-.footer {
+/* .footer {
   position: absolute;
   width: 100vw;
   font-family: monospace;
@@ -114,7 +116,7 @@ h4 {
   justify-content: center;
   background: black;
   opacity: 0.6;
-}
+} */
 
 
 @media screen and (min-width:750px) {
