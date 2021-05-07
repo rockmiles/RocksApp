@@ -1,8 +1,9 @@
 {% extends 'gallery/base.html' %}
+{% load static %}
 
 {% block content %}
   <div class="top">
-    <h2 class="text-center">Emilia Carter</h2>
+    <h2 id="name" class="text-center">Emilia Carter</h2>
     <h4 class="text-center">PhotoGraphy</h4>
 
     <ul class="list-flairs">
@@ -14,14 +15,15 @@
         <li><a href="#">Desert</a></li>
     </ul>
   </div>
+
   <h2 class="text-center">Destined Photographer</h2>
   <hr>
   <div class="container-fluid">
     <div class="row">
       {% for post in posts %}
         <div class="col-md-4 col-sm-12">
-          <div class="card">
-            <img src="{{ post.image.url }}" class="img-responsive" style='width: 100%; float: left; margin-right: 10px;' alt="">
+          <div class="card" style='width: 100%; float: left; margin-bottom: 10px;'>
+            <img src="{{ post.image.url }}" class="img-responsive-resize" style='width: 100%; height: 400px; object-fit: cover; float: left; margin-right: 10px;' alt="">
           </div>
         </div>
       {% endfor %}
