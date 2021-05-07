@@ -1,6 +1,9 @@
 
 /* Global Styles
 ===============================*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -26,6 +29,15 @@ h4 {
 
 img.img-responsive-resize {
     height: 400px;
+}
+
+.navbar-brand {
+  font-family: 'Caveat', cursive;
+  font-size: 44px;
+
+  /* font-family: 'Satisfy', cursive;
+
+  font-family: 'Kaushan Script', cursive; */
 }
 
 #bg {
@@ -54,11 +66,15 @@ img.img-responsive-resize {
   margin-right: 20px;
   color: white;
   text-decoration: none;
-  padding: 15px 35px 15px 35px;
+  padding: 10px 25px 10px 25px;
   background: #0A75AD;
   border-radius: 70px;
 }
 
+.mid h2 {
+  font-family: 'Caveat', cursive;
+  font-family: 'Satisfy', cursive;
+}
 .top {
   background: #EEEEEE;
   color: #696966;
@@ -76,16 +92,18 @@ img.img-responsive-resize {
 .list-flairs a {
   padding: 15px;
   display: inline-block;
+  font-size: 24px;
   text-decoration: none;
   padding: 5px 15px 5px 15px;
   margin-bottom: 20px;
+  font-family: 'Satisfy', cursive;
 }
 
-.list-flairs a:hover {
+/* .list-flairs a:hover {
   background: teal;
   border-radius: 10px;
   padding: 5px 15px 5px 15px;
-}
+} */
 
 /* img {
   object-fit: cover;
