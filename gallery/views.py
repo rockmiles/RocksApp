@@ -8,3 +8,6 @@ def home(request):
 def posts(request):
     posts = Post.objects.all()
     return render(request, 'gallery/post-detail.html', {'posts' : posts})
+
+def about(request):
+    return render(request, 'gallery/about.html')
