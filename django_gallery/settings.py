@@ -133,7 +133,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL = 'posts'
+LOGIN_REDIRECT_URL = 'post-page'
 LOGIN_URL = 'login'
 
 #Email credentials
