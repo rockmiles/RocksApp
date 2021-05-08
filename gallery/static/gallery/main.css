@@ -45,7 +45,10 @@ img.img-responsive-resize {
   font-family: 'Kaushan Script', cursive; */
 }
 
-.text-name {
+.logout h4 {
+  font-family: 'Charm', cursive;
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 /* LINKS*/
