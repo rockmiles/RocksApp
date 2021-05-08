@@ -38,6 +38,9 @@ img.img-responsive-resize {
   font-family: 'Kaushan Script', cursive; */
 }
 
+.text-name {
+}
+
 /* LINKS*/
 .content-section {
   background: #ffffff;
@@ -133,6 +136,8 @@ a.article-title:hover {
 .top {
   background: #EEEEEE;
   color: #696966;
+  padding-top: 10%;
+  text-align: center;
 }
 
 .list-flairs {
