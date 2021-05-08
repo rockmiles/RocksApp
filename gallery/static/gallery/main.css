@@ -3,7 +3,7 @@
 ===============================*/
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Great+Vibes&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -29,6 +29,13 @@ h4 {
 
 img.img-responsive-resize {
     height: 400px;
+}
+
+.about h4 {
+  font-family: 'Charm', cursive;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .navbar-brand {
