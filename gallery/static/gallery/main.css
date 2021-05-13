@@ -38,11 +38,19 @@ img.img-responsive-resize {
   text-align: center;
 }
 
+/* .navbar {
+  position: absolute;
+} */
+
 .navbar-brand {
   font-family: 'Caveat', cursive;
   font-size: 44px;
   /* font-family: 'Satisfy', cursive;
   font-family: 'Kaushan Script', cursive; */
+}
+
+.bod {
+  margin-top: 10%;
 }
 
 .logout h4 {
